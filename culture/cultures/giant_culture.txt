@@ -1,0 +1,27 @@
+giants = {
+    color = #88d569  # Gray-ish to feel giant-like
+    
+    ethos = ethos_militaristic
+    heritage = heritage_giants
+    language = giants_tounge
+    martial_custom = martial_custom_male_only
+    head_determination = head_determination_domain
+    
+    traditions = {
+        tradition_militaristic
+        tradition_nomadic
+        tradition_raid
+        tradition_honor
+    }
+    
+    name_list = name_list_giants
+    
+    coa_gfx = { northern_group_coa_gfx }
+    building_gfx = { northern_building_gfx }
+    clothing_gfx = { northern_clothing_gfx }
+    unit_gfx = { northern_unit_gfx }
+    
+    ethnicities = {
+        10 = northern_frankish
+    }
+}

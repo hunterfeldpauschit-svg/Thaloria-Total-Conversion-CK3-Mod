@@ -1,0 +1,25 @@
+noveregian = {
+    color = #aa846b
+    
+    ethos = ethos_bureaucratic
+    heritage = heritage_noveregian
+    language = language_noveregian
+    martial_custom = martial_custom_male_only
+    head_determination = head_determination_domain
+    
+    traditions = {
+        tradition_legalistic
+        tradition_castle_keepers
+    }
+    
+    name_list = name_list_noveregian
+    
+    coa_gfx = { latin_group_coa_gfx }
+    building_gfx = { italian_building_gfx }
+    clothing_gfx = { italian_clothing_gfx }
+    unit_gfx = { western_unit_gfx }
+    
+    ethnicities = {
+        10 = mediterranean_italian
+    }
+}

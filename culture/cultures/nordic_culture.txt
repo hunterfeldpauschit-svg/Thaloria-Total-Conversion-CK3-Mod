@@ -1,0 +1,26 @@
+nordic = {
+    color = #5965e3
+    
+    ethos = ethos_warrior
+    heritage = heritage_nordic
+    language = language_nordic
+    martial_custom = martial_custom_male_only
+    head_determination = head_determination_domain
+    
+    traditions = {
+        tradition_seafaring
+        tradition_nomadic
+        tradition_legalistic
+    }
+    
+    name_list = name_list_nordic
+    
+    coa_gfx = { norse_group_coa_gfx }
+    building_gfx = { norse_building_gfx }
+    clothing_gfx = { norse_clothing_gfx }
+    unit_gfx = { eastern_unit_gfx }
+    
+    ethnicities = {
+        10 = northern_scandinavian
+    }
+}

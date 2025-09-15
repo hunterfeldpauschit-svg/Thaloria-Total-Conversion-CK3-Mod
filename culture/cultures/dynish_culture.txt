@@ -1,0 +1,27 @@
+dynish = {
+    color = #c86be1  # purple-ish, mysterious vibe
+    
+    ethos = ethos_spiritual   # fits the god-worshipping theme
+    heritage = heritage_dynish
+    language = language_dynish
+    martial_custom = martial_custom_male_only
+    head_determination = head_determination_domain
+    
+    traditions = {
+        tradition_seafaring        # naval strength for sea serpent theme
+        tradition_raiding          # they’re scary, capable warriors
+        tradition_legalistic       # keeps kingdom structured despite chaos
+        tradition_trade_mastery    # optional, gives them commerce edge
+    }
+    
+    name_list = name_list_dynish
+    
+    coa_gfx = { norse_group_coa_gfx }          # reuse Nordic graphics
+    building_gfx = { norse_building_gfx }
+    clothing_gfx = { norse_clothing_gfx }
+    unit_gfx = { eastern_unit_gfx }            # keep them unique and badass
+    
+    ethnicities = {
+        10 = northern_scandinavian
+    }
+}

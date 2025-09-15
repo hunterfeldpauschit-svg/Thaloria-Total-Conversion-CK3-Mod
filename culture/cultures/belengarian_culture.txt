@@ -1,0 +1,26 @@
+belengarian = {
+    color = #c86be1
+
+    ethos = ethos_militaristic
+    heritage = heritage_belengarian
+    language = language_belengarian
+    martial_custom = martial_custom_male_only
+    head_determination = head_determination_eldest_son
+
+    traditions = {
+        tradition_nomadic
+        tradition_military_focus
+        tradition_honor_code
+    }
+
+    name_list = name_list_belengarian
+
+    coa_gfx = { desert_group_coa_gfx }
+    building_gfx = { desert_building_gfx }
+    clothing_gfx = { desert_clothing_gfx }
+    unit_gfx = { eastern_unit_gfx }
+
+    ethnicities = {
+        10 = desert_nomads
+    }
+}

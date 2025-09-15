@@ -1,0 +1,53 @@
+﻿solmarian = {
+    color = #d9a27e
+    ethos = ethos_diplomatic
+    heritage = heritage_solmarian_culture
+    language = language_solmarian
+    martial_custom = martial_custom_male_only
+    head_determination = head_determination_domain
+
+    traditions = {
+	tradition_chivalry
+    }
+
+    name_list = name_list_solmarian
+
+    coa_gfx = { byzantine_group_coa_gfx }
+    building_gfx = { byzantine_building_gfx }
+    clothing_gfx = { byzantine_clothing_gfx }
+    unit_gfx = { eastern_unit_gfx }
+
+    ethnicities = {
+        10 = mediterranean_byzantine
+    }
+
+    # Subcultures
+    subcultures = {
+        south_solmarian = {
+            color = #eed58b  # slightly darker, warm tan skin tone
+            traditions = {
+                tradition_trade_mastery
+                tradition_seafaring
+		tradition_chivalry
+            }
+            name_list = name_list_solmarian_language
+            ethnicities = {
+                10 = mediterranean_byzantine
+            }
+        }
+
+        solmarian_pirates = {
+            color = #eed67d  # similar to South Solmarian, distinct enough
+            traditions = {
+                tradition_trade_mastery
+                tradition_seafaring
+                tradition_raiding
+            }
+            name_list = name_list_solmarian_language
+            ethnicities = {
+                10 = mediterranean_byzantine
+            }
+        }
+    }
+}
+

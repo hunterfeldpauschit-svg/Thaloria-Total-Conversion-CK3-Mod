@@ -1,0 +1,53 @@
+﻿heritage_solmarian = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = solmarian
+}
+
+heritage_belengarian = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = belengarian
+}
+
+heritage_leonish = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = leonish
+}
+
+heritage_giants = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = giants_tounge
+}
+
+heritage_nordic = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = nordic
+}
+
+heritage_dynish = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = dynish
+}
+
+heritage_waethian = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = waethian
+}
+
+heritage_nofish = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = nofish
+}
+
+heritage_noveregian = {
+    type = heritage
+    is_shown = { always = no }
+    audio_parameter = noveregian
+}
