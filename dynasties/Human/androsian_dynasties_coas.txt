@@ -1,0 +1,145 @@
+coa_del_larreto_original = {
+    pattern = "pattern_solid.dds"
+    color1 = yellow
+    color2 = yellow
+    color3 = red
+    colored_emblem = {
+        texture = "ce_bow.dds"
+        color1 = black
+        color2 = black
+        instance = { scale = { 0.7 0.7 } }
+    }
+}
+
+coa_del_larreto_marcellus = {
+    pattern = "pattern_tricolor_bend_01.dds"
+    color1 = green_light
+    color2 = green_light
+    color3 = green_light
+    colored_emblem = {
+        texture = "ce_eagle_crown_boned.dds"
+        color1 = black
+        color2 = yellow
+        color3 = red
+        instance = { scale = { 0.7 0.7 } }
+    }
+}
+
+coa_del_mar = {
+    pattern = "pattern_solid.dds"
+    color1 = black
+    color2 = white
+    color3 = black
+    colored_emblem = {
+        texture = "ce_lobster.dds"
+        color1 = white
+        instance = { scale = { 0.7 0.7 } }
+    }
+}
+
+coa_bellen = {
+    pattern = "pattern__solid_designer.dds"
+    color1 = rgb { 100 24 70 }
+    color2 = white
+    color3 = black
+    colored_emblem = {
+        texture = "ce_elephant_indian_02.dds"
+        color1 = white
+        color2 = yellow
+        color3 = yellow
+        instance = { scale = { 0.7 0.7 } }
+    }
+}
+
+coa_del_rhane = {
+    pattern = "pattern_solid.dds"
+    color1 = white
+    color2 = white
+    color3 = blue
+    colored_emblem = {
+        texture = "ce_fleur_florence.dds"
+        color1 = yellow
+        instance = { scale = { 0.7 0.7 } }
+    }
+}
+
+coa_del_pyces = {
+    pattern = "pattern_solid.dds"
+    color1 = red
+    color2 = white
+    color3 = blue
+    colored_emblem = {
+        texture = "ce_heart.dds"
+        color1 = rgb { 220 157 191 }
+        instance = {
+            position = { 0.7 0.7 }
+            scale = { 0.4 0.4 }
+        }
+    }
+    colored_emblem = {
+        texture = "ce_heart.dds"
+        color1 = rgb { 209 152 185 }
+        instance = {
+            position = { 0.3 0.3 }
+            scale = { 0.4 0.4 }
+            depth = 1.01
+        }
+    }
+}
+
+coa_del_turk = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 101 38 38 }
+    color2 = yellow
+    color3 = blue
+    colored_emblem = {
+        texture = "ce_camel.dds"
+        color1 = rgb { 215 179 125 }
+        color2 = yellow
+        instance = { scale = { 0.7 0.7 } }
+    }
+}
+
+coa_santemar = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 164 119 51 }
+    color2 = yellow
+    color3 = red
+    colored_emblem = {
+        texture = "ce_fleur.dds"
+        color1 = white
+        instance = { position = { 1.0 1.0 } scale = { 0.2 0.2 } }
+        instance = { position = { 0.8 1.0 } scale = { 0.2 0.2 } depth = 1.01 }
+        instance = { position = { 0.6 1.0 } scale = { 0.2 0.2 } depth = 2.01 }
+        instance = { position = { 0.4 1.0 } scale = { 0.2 0.2 } depth = 3.01 }
+        instance = { position = { 0.2 1.0 } scale = { 0.2 0.2 } depth = 4.01 }
+        instance = { position = { 0.0 1.0 } scale = { 0.2 0.2 } depth = 5.01 }
+        instance = { position = { 0.9 0.8 } scale = { 0.2 0.2 } depth = 6.01 }
+        instance = { position = { 0.7 0.8 } scale = { 0.2 0.2 } depth = 7.01 }
+        instance = { position = { 0.5 0.8 } scale = { 0.2 0.2 } depth = 8.01 }
+        instance = { position = { 0.3 0.8 } scale = { 0.2 0.2 } depth = 9.01 }
+        instance = { position = { 0.1 0.8 } scale = { 0.2 0.2 } depth = 10.01 }
+        instance = { position = { 1.0 0.6 } scale = { 0.2 0.2 } depth = 11.01 }
+        instance = { position = { 0.8 0.6 } scale = { 0.2 0.2 } depth = 12.01 }
+        instance = { position = { 0.6 0.6 } scale = { 0.2 0.2 } depth = 13.01 }
+        instance = { position = { 0.4 0.6 } scale = { 0.2 0.2 } depth = 14.01 }
+        instance = { position = { 0.2 0.6 } scale = { 0.2 0.2 } depth = 15.01 }
+        instance = { position = { 0.0 0.6 } scale = { 0.2 0.2 } depth = 16.01 }
+        instance = { position = { 0.9 0.4 } scale = { 0.2 0.2 } depth = 17.01 }
+        instance = { position = { 0.7 0.4 } scale = { 0.2 0.2 } depth = 18.01 }
+        instance = { position = { 0.5 0.4 } scale = { 0.2 0.2 } depth = 19.01 }
+        instance = { position = { 0.3 0.4 } scale = { 0.2 0.2 } depth = 20.01 }
+        instance = { position = { 0.1 0.4 } scale = { 0.2 0.2 } depth = 21.01 }
+        instance = { position = { 1.0 0.2 } scale = { 0.2 0.2 } depth = 22.01 }
+        instance = { position = { 0.8 0.2 } scale = { 0.2 0.2 } depth = 23.01 }
+        instance = { position = { 0.6 0.2 } scale = { 0.2 0.2 } depth = 24.01 }
+        instance = { position = { 0.4 0.2 } scale = { 0.2 0.2 } depth = 25.01 }
+        instance = { position = { 0.2 0.2 } scale = { 0.2 0.2 } depth = 26.01 }
+        instance = { position = { 0.0 0.2 } scale = { 0.2 0.2 } depth = 27.01 }
+        instance = { position = { 0.9 0.0 } scale = { 0.2 0.2 } depth = 28.01 }
+        instance = { position = { 0.7 0.0 } scale = { 0.2 0.2 } depth = 29.01 }
+        instance = { position = { 0.5 0.0 } scale = { 0.2 0.2 } depth = 30.01 }
+        instance = { position = { 0.3 0.0 } scale = { 0.2 0.2 } depth = 31.01 }
+        instance = { position = { 0.1 0.0 } scale = { 0.2 0.2 } depth = 32.01 }
+    }
+}

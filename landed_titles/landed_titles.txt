@@ -1,0 +1,422 @@
+# Landed Titles
+
+# Kingdoms
+
+k_east_androsia = {
+    color = { 210 180 140 }
+    capital = 28
+}
+
+k_belengaria = {
+    color = { 128 0 128 }
+    capital = 2000
+}
+
+k_south_bay = {
+    color = { 222 204 164 }
+    capital = 2
+}
+
+# Independent Regions
+
+# Pirate Bay
+i_pirate_bay = {
+    capital = 2046
+    c_balfero = { province = 2046 }
+    c_delvento = { province = 2047 }
+    c_quaderno = { province = 2048 }
+    c_verciano = { province = 2049 }
+    c_bardesco = { province = 2050 }
+    c_garbino = { province = 2051 }
+    c_kostano = { province = 2052 }
+    c_montaro = { province = 2053 }
+    c_ormario = { province = 2054 }
+    c_droviano = { province = 2055 }
+    c_sarnaro = { province = 2056 }
+    c_zolvento = { province = 2057 }
+    c_fioravento = { province = 2058 }
+    c_brivando = { province = 2059 }
+    c_criviano = { province = 2060 }
+    c_castelvo = { province = 2061 }
+    c_lorvanto = { province = 2062 }
+    c_palderis = { province = 2063 }
+    c_verdaluna = { province = 2064 }
+    c_soltrano = { province = 2065 }
+}
+
+# Falcoria Independent Counties
+i_falcoria = {
+    capital = 2071
+    c_aurelia = { province = 2071 }
+    c_doravella = { province = 2072 }
+    c_solbruna = { province = 2073 }
+    c_valdoria = { province = 2074 }
+    c_marcellia = { province = 2075 }
+    c_florencia = { province = 2076 }
+    c_castellara = { province = 2077 }
+}
+
+# Nordic Independent Counties
+i_nordic = {
+    capital = 2200
+    c_jorngraben = { province = 2200 }
+    c_frosvik = { province = 2201 }
+    c_stenmark = { province = 2202 }
+    c_bjarnholm = { province = 2203 }
+    c_iselund = { province = 2204 }
+    c_grensvik = { province = 2205 }
+    c_ostfjord = { province = 2206 }
+    c_norvik = { province = 2207 }
+    c_fjallheim = { province = 2208 }
+    c_kaldvik = { province = 2209 }
+    c_hrafnborg = { province = 2210 }
+    c_stormvik = { province = 2211 }
+    c_varngard = { province = 2212 }
+    c_drakenfjord = { province = 2213 }
+    c_skjoldvik = { province = 2214 }
+}
+
+# Leonish Independent Counties
+i_leonia = {
+    capital = 2215
+    c_valdormir = { province = 2215 }
+    c_beauclair = { province = 2216 }
+    c_montelieu = { province = 2217 }
+    c_riventon = { province = 2218 }
+    c_clairvaux = { province = 2219 }
+    c_lormiere = { province = 2220 }
+    c_favrienne = { province = 2221 }
+    c_cadenelle = { province = 2222 }
+    c_durvienne = { province = 2223 }
+    c_belvost = { province = 2224 }
+    c_corviere = { province = 2225 }
+    c_tervanne = { province = 2226 }
+    c_lorville = { province = 2227 }
+    c_juvencourt = { province = 2228 }
+    c_malverne = { province = 2229 }
+    c_portelune = { province = 2230 }
+    c_brivonne = { province = 2231 }
+    c_vellastre = { province = 2232 }
+    c_flaubry = { province = 2233 }
+    c_orvalis = { province = 2234 }
+    c_cambrie = { province = 2235 }
+    c_lysvire = { province = 2236 }
+    c_charbelle = { province = 2237 }
+    c_tournelle = { province = 2238 }
+    c_selvagne = { province = 2239 }
+    c_verdolme = { province = 2240 }
+    c_rousselle = { province = 2241 }
+    c_montclaire = { province = 2242 }
+    c_fervaine = { province = 2243 }
+    c_auvrienne = { province = 2244 }
+}
+
+# Santemar Duchy (now holding all other kingdoms and independent counties except Nordics, Falcoria, Pirate Bay)
+d_santemar = {
+    capital = 2066
+    
+    # East Androsia Counties
+    c_corentia = { province = 1 }
+    c_tranquinium = { province = 2 }
+    c_ascrigia = { province = 3 }
+    c_coria = { province = 4 }
+    c_agdurinia = { province = 5 }
+    c_povia = { province = 6 }
+    c_dubria = { province = 7 }
+    c_burgono = { province = 8 }
+    c_einelia = { province = 9 }
+    c_dubridia = { province = 10 }
+    c_vetocoria = { province = 11 }
+    c_boviumia = { province = 12 }
+    c_bodunum = { province = 13 }
+    c_sornagure = { province = 14 }
+    c_manavenia = { province = 15 }
+    c_pomnoria = { province = 16 }
+    c_bobakar = { province = 17 }
+    c_agurpia = { province = 18 }
+    c_odulia = { province = 19 }
+    c_luriluia = { province = 20 }
+    c_disustsia = { province = 21 }
+    c_borialas = { province = 22 }
+    c_iuegrania = { province = 23 }
+    c_aunumia = { province = 24 }
+    c_lindania = { province = 25 }
+    c_cicatatia = { province = 26 }
+    c_ovioborenia = { province = 27 }
+    c_argumia = { province = 28 }
+    c_akemerudia = { province = 29 }
+    c_elietovia = { province = 30 }
+    c_west_elietovia = { province = 31 }
+    c_ediovia = { province = 32 }
+    c_lacribia = { province = 33 }
+    c_victria = { province = 34 }
+    c_eruranis = { province = 35 }
+    c_cemia = { province = 36 }
+    c_dubrisia = { province = 37 }
+    c_porum = { province = 38 }
+    c_tartus = { province = 39 }
+    c_rauvoveria = { province = 40 }
+    c_kalga = { province = 41 }
+    c_vilonis = { province = 42 }
+    c_brivistia = { province = 43 }
+    c_nigrumia = { province = 44 }
+    c_modria = { province = 45 }
+    c_turk = { province = 46 }
+    c_vinda = { province = 47 }
+    c_claurodu = { province = 48 }
+    c_albiumia = { province = 49 }
+    c_catavala = { province = 50 }
+    c_veria = { province = 51 }
+    c_deli = { province = 52 }
+    c_bodurumia = { province = 53 }
+    c_vebavia = { province = 54 }
+    c_ilumia = { province = 55 }
+    c_lingaguri = { province = 56 }
+    c_dimiponda = { province = 57 }
+    c_odunum = { province = 58 }
+    c_naisicia = { province = 59 }
+    c_ditavarnia = { province = 60 }
+
+    # Belengaria Counties
+    c_tuscaris = { province = 2000 }
+    c_vistulia = { province = 2001 }
+    c_petravium = { province = 2002 }
+    c_argenta = { province = 2003 }
+    c_magloria = { province = 2004 }
+    c_pavonia = { province = 2005 }
+    c_grantravia = { province = 2006 }
+    c_lupetria = { province = 2007 }
+    c_vastrum = { province = 2008 }
+    c_elenaria = { province = 2009 }
+    c_porticara = { province = 2010 }
+    c_dravonia = { province = 2011 }
+    c_tigrania = { province = 2012 }
+    c_savara = { province = 2013 }
+    c_ramaldria = { province = 2014 }
+    c_serpentis = { province = 2015 }
+    c_cineris = { province = 2016 }
+    c_ossavia = { province = 2017 }
+    c_silvaria = { province = 2018 }
+
+    # South Bay Counties
+    c_calvoro = { province = 2019 }
+    c_duvino = { province = 2020 }
+    c_espira = { province = 2021 }
+    c_falcetto = { province = 2022 }
+    c_grivaro = { province = 2023 }
+    c_haleria = { province = 2024 }
+    c_istrano = { province = 2025 }
+    c_jovara = { province = 2026 }
+    c_lumeria = { province = 2027 }
+    c_orveto = { province = 2028 }
+    c_paldero = { province = 2029 }
+    c_ristaro = { province = 2030 }
+    c_solveta = { province = 2031 }
+    c_valdoro = { province = 2032 }
+    c_amboria = { province = 2033 }
+    c_fiumaro = { province = 2034 }
+    c_lucerno_palia = { province = 2035 }
+    c_palvoro = { province = 2036 }
+    c_salerno = { province = 2037 }
+    c_taviero = { province = 2038 }
+    c_valestro = { province = 2039 }
+    c_caltaro = { province = 2040 }
+    c_grisano = { province = 2041 }
+    c_jolbria = { province = 2042 }
+    c_kalmero = { province = 2043 }
+    c_solbano = { province = 2044 }
+    c_tavello = { province = 2045 }
+
+    # West Androsia Counties
+    c_verdalia_plains = { province = 2078 }
+    c_eryndor_fields = { province = 2079 }
+    c_galesward_meadows = { province = 2080 }
+    c_thaloren_steppe = { province = 2081 }
+    c_sylveth_grove = { province = 2082 }
+    c_brackenreach = { province = 2083 }
+    c_greenhold_expanse = { province = 2084 }
+    c_virellia_heights = { province = 2085 }
+    c_mossglen = { province = 2086 }
+    c_lornwyck_pastures = { province = 2087 }
+    c_fendral_vale = { province = 2088 }
+    c_wyndmere_heath = { province = 2089 }
+    c_cindral_fields = { province = 2090 }
+    c_dawnspring = { province = 2091 }
+    c_fernveil = { province = 2092 }
+    c_oakreach = { province = 2093 }
+    c_thistledown = { province = 2094 }
+    c_glimmerfen = { province = 2095 }
+    c_starfield_plains = { province = 2096 }
+    c_ashenridge = { province = 2097 }
+    c_bramblecroft = { province = 2098 }
+    c_halewind_meadows = { province = 2099 }
+    c_mistgrove = { province = 2100 }
+    c_elmsward = { province = 2101 }
+    c_silverfen = { province = 2102 }
+    c_greenglade = { province = 2103 }
+    c_windwhisper = { province = 2104 }
+    c_pinevale = { province = 2105 }
+    c_brightwood = { province = 2106 }
+    c_thornhollow = { province = 2107 }
+    c_lushmere = { province = 2108 }
+    c_shores_holden = { province = 2109 }
+    c_meadowglen = { province = 2110 }
+    c_grayfen_hills = { province = 2111 }
+    c_stonewood = { province = 2112 }
+    c_drakenshore = { province = 2113 }
+    c_sunridge = { province = 2114 }
+    c_emerald_glade = { province = 2115 }
+    c_fernridge = { province = 2116 }
+    c_briarthorn = { province = 2117 }
+    c_oakshade = { province = 2118 }
+    c_willowbend = { province = 2119 }
+    c_thornridge = { province = 2120 }
+    c_mosswood = { province = 2121 }
+    c_widdleville = { province = 2122 }
+    c_riverbend = { province = 2123 }
+    c_ironhold = { province = 2124 }
+    c_mistvale = { province = 2125 }
+    c_windfen = { province = 2126 }
+    c_brightfield = { province = 2127 }
+    c_glenreach = { province = 2128 }
+    c_hilltop_meadows = { province = 2129 }
+    c_greenhollow = { province = 2130 }
+    c_shademere = { province = 2131 }
+    c_fernhollow = { province = 2132 }
+    c_darkwood = { province = 2133 }
+    c_leafridge = { province = 2134 }
+    c_sunmeadow = { province = 2135 }
+    c_starfen = { province = 2136 }
+    c_brackenhill = { province = 2137 }
+    c_springvale = { province = 2138 }
+
+    # Nofrington Counties
+    c_rosewick = { province = 2139 }
+    c_ashbury = { province = 2140 }
+    c_cinderholt = { province = 2141 }
+    c_fallowmere = { province = 2142 }
+    c_redmarch = { province = 2143 }
+    c_heatherfell = { province = 2144 }
+    c_brimvale = { province = 2145 }
+    c_duskendale = { province = 2146 }
+    c_elmwick = { province = 2147 }
+    c_foxleigh = { province = 2148 }
+    c_rosehaven = { province = 2149 }
+    c_duskwold = { province = 2150 }
+    c_briarholt = { province = 2151 }
+    c_thornwick = { province = 2152 }
+    c_mournstead = { province = 2153 }
+    c_hallowmere = { province = 2154 }
+    c_ashenridge_2 = { province = 2155 }
+    c_ravenholt = { province = 2156 }
+    c_marrowwick = { province = 2157 }
+    c_duskmere = { province = 2158 }
+    c_brackenwold = { province = 2159 }
+    c_cinderford = { province = 2160 }
+    c_gravenholt = { province = 2161 }
+    c_oakenshire = { province = 2162 }
+    c_duskwatch = { province = 2163 }
+    c_thistleford = { province = 2164 }
+    c_mirewick = { province = 2165 }
+    c_ashenmere = { province = 2166 }
+    c_redthorn = { province = 2167 }
+    c_gloomvale = { province = 2168 }
+    c_hollowmere = { province = 2169 }
+    c_emberwick = { province = 2170 }
+    c_frostholt = { province = 2171 }
+    c_gravesend = { province = 2172 }
+    c_wildemarsh = { province = 2173 }
+    c_ravenswatch = { province = 2174 }
+    c_stonehaven = { province = 2175 }
+    c_ashmoor = { province = 2176 }
+    c_brimshollow = { province = 2177 }
+    c_ironwick = { province = 2178 }
+    c_marshfen = { province = 2179 }
+    c_bloodvale = { province = 2180 }
+    c_thornfell = { province = 2181 }
+    c_blackmere = { province = 2182 }
+    c_hollowfen = { province = 2183 }
+    c_elderwick = { province = 2184 }
+    c_grimhollow = { province = 2185 }
+    c_ravenmarch = { province = 2186 }
+    c_brimvale_2 = { province = 2187 }
+    c_ashgrove = { province = 2188 }
+    c_fallowfen = { province = 2189 }
+    c_wolfesham = { province = 2190 }
+    c_duskgate = { province = 2191 }
+    c_briarwick = { province = 2192 }
+    c_hawthornvale = { province = 2193 }
+    c_gloomford = { province = 2194 }
+    c_ashwell = { province = 2195 }
+    c_grimfen = { province = 2196 }
+    c_duskfield = { province = 2197 }
+    c_rowanholt = { province = 2198 }
+    c_brackenmere = { province = 2199 }
+
+    # Dyne Counties
+    c_torynith = { province = 2245 }
+    c_falvess = { province = 2246 }
+    c_tyssarin = { province = 2247 }
+    c_hivoral = { province = 2248 }
+    c_telvoryn = { province = 2249 }
+    c_pyssara = { province = 2250 }
+    c_torveth = { province = 2251 }
+    c_hylarin = { province = 2252 }
+    c_tyssoval = { province = 2253 }
+    c_porvessal = { province = 2254 }
+    c_talyth = { province = 2255 }
+    c_hythenor = { province = 2256 }
+    c_terivyn = { province = 2257 }
+    c_paltyss = { province = 2258 }
+    c_tomaril = { province = 2259 }
+    c_hyssorin = { province = 2260 }
+    c_tylarven = { province = 2261 }
+    c_porvynis = { province = 2262 }
+    c_talziryn = { province = 2263 }
+    c_hyssalor = { province = 2264 }
+    c_tythenis = { province = 2265 }
+    c_porvalin = { province = 2266 }
+    c_terivyn_2 = { province = 2267 }
+    c_hylithar = { province = 2268 }
+    c_tylarvess = { province = 2269 }
+    c_fealuniryn = { province = 2270 }
+    c_torvessar = { province = 2271 }
+    c_hythenis = { province = 2272 }
+    c_tylarinor = { province = 2273 }
+    c_fealvoryn = { province = 2274 }
+    c_tylarvenor = { province = 2275 }
+    c_talyssor = { province = 2276 }
+    c_hivoryn = { province = 2277 }
+    c_torvynis = { province = 2278 }
+    c_perivyn = { province = 2279 }
+    c_tylithar = { province = 2280 }
+    c_tyssaral = { province = 2281 }
+    c_paltyren = { province = 2282 }
+
+    # Waethia Counties
+    c_felubakh = { province = 2283 }
+    c_wzaltenwald = { province = 2284 }
+    c_drofenbakh = { province = 2285 }
+    c_kroszszal = { province = 2286 }
+    c_holzwald = { province = 2287 }
+    c_varnubakh = { province = 2288 }
+    c_trelwzszal = { province = 2289 }
+    c_drafenwald = { province = 2290 }
+    c_luszbakh = { province = 2291 }
+    c_morkwzszal = { province = 2292 }
+    c_branthwald = { province = 2293 }
+    c_zelubakh = { province = 2294 }
+    c_frawszal = { province = 2295 }
+    c_norkwald = { province = 2296 }
+    c_wzindbakh = { province = 2297 }
+    c_scherwzszal = { province = 2298 }
+    c_dravubakh = { province = 2299 }
+    c_holwzszal = { province = 2300 }
+    c_kroszlubakh = { province = 2301 }
+    c_felwzszal = { province = 2302 }
+    c_drafubakh = { province = 2303 }
+    c_varnwzszal = { province = 2304 }
+}
+
+
+

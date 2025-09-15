@@ -1,0 +1,16 @@
+belengarian_language = {
+    display_name = "Belengarian"
+    alphabet = "latin"
+
+    # Pluralization rules
+    plural_male = "ar"
+    plural_female = "a"
+
+    # Optional dynasty forms
+    dynasty_plural = "dynasties"
+    male_name_suffix = ""
+    female_name_suffix = "a"
+
+    # Adjective for events or decisions
+    adjective = "Belengarian"
+}

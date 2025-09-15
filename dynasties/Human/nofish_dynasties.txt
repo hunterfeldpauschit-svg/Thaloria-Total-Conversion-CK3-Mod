@@ -1,0 +1,6 @@
+2560419626 = {
+    name = "Drakehart"
+    culture = "nofish"
+    motto = "Precision beats power, and timing beats speed."	
+    coat_of_arms_id = "coa_drakehart"
+}

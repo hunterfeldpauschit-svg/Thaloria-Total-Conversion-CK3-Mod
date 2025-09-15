@@ -1,0 +1,16 @@
+giants_tongue_language = {
+    display_name = "Giants' Tongue"
+    alphabet = "latin"
+
+    # Pluralization rules (optional, simple for giants)
+    plural_male = "ar"
+    plural_female = "a"
+
+    # Optional dynasty forms
+    dynasty_plural = "clans"
+    male_name_suffix = ""
+    female_name_suffix = "a"
+
+    # Adjective for events or decisions
+    adjective = "Giantish"
+}

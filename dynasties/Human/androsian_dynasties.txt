@@ -1,0 +1,55 @@
+100001 = {
+    name = "del Larreto"
+    culture = androsian
+    coat_of_arms_id = coa_del_larreto_original
+    motto = "Through the ages"
+}
+
+100002 = {
+    name = "del Larreto"
+    culture = androsian
+    coat_of_arms_id = coa_del_larreto_marcellus
+    motto = "Claws and Courage."
+}
+
+100003 = {
+    name = "del Mar"
+    culture = androsian
+    coat_of_arms_id = coa_del_mar
+    motto = "Patience is Power."
+}
+
+100004 = {
+    name = "Bellen"
+    culture = androsian
+    coat_of_arms_id = coa_bellen
+    motto = "Tusk, Blood, and Honor."
+}
+
+100005 = {
+    name = "del Rhane"
+    culture = androsian
+    coat_of_arms_id = coa_del_rhane
+    motto = "Tusk, Blood, and Honor."
+}
+
+100006 = {
+    name = "del Pyces"
+    culture = androsian
+    coat_of_arms_id = coa_del_pyces
+    motto = "Mercy is for the weak."
+}
+
+100007 = {
+    name = "del Turk"
+    culture = androsian
+    coat_of_arms_id = coa_del_turk
+    motto = "Mercy is for the weak."
+}
+
+100008 = {
+    name = "Santemar"
+    culture = androsian
+    coat_of_arms_id = coa_santemar
+    motto = "Steel may bend, but I do not."
+}

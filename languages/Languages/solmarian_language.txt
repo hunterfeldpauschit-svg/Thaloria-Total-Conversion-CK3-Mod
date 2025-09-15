@@ -1,0 +1,25 @@
+solmarian_language = {
+    # Optional: displayed name in game
+    display_name = "Solmarian"
+    
+    # The alphabet used for the language (mostly aesthetic)
+    alphabet = "latin"
+
+    # Pluralization rules
+    plural_male = "s"
+    plural_female = "s"
+
+    # Gender-neutral or special forms
+    # For example, if you want dynasty names to look a certain way
+    dynasty_plural = "dynasties"
+
+    # Optional: suffixes or grammar quirks
+    male_name_suffix = ""
+    female_name_suffix = "a"
+
+    # Optional: adjectives for culture
+    adjective = "Solmarian"
+
+    # Optional: pronunciation rules (for localization)
+    # These are rarely used unless you want very specific spelling changes
+}

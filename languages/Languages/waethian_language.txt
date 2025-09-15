@@ -1,0 +1,16 @@
+waethian_language = {
+    display_name = "Waethian"
+    alphabet = "latin"
+
+    # Pluralization rules
+    plural_male = "s"
+    plural_female = "s"
+
+    # Optional dynasty forms
+    dynasty_plural = "dynasties"
+    male_name_suffix = ""
+    female_name_suffix = "a"
+
+    # Adjective for events or decisions
+    adjective = "Waethian"
+}
