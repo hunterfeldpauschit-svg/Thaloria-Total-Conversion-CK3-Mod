@@ -1,0 +1,83 @@
+silent_one_religion = {
+    family = rf_custom  # fully fictional family
+
+    pagan_roots = yes  # ancient Noveregish origins
+
+    doctrine = doctrine_monotheistic_secretive
+    doctrine = doctrine_gender_male_dominated
+    doctrine = doctrine_pluralism_suppressed
+    doctrine = doctrine_theocracy_temporal
+
+    #Marriage
+    doctrine = doctrine_monogamy
+    doctrine = doctrine_divorce_disallowed
+    doctrine = doctrine_bastardry_forbidden
+
+    #Crimes
+    doctrine = doctrine_homosexuality_shunned
+    doctrine = doctrine_adultery_shunned
+    doctrine = doctrine_kinslaying_close_kin_crime
+    doctrine = doctrine_deviancy_shunned
+    doctrine = doctrine_witchcraft_shunned
+
+    #Clerical Functions
+    doctrine = doctrine_clerical_function_recruitment
+    doctrine = doctrine_clerical_gender_male
+    doctrine = doctrine_clerical_marriage_disallowed
+    doctrine = doctrine_clerical_succession_temporal_appointment
+
+    #Funeral tradition
+    doctrine = doctrine_funeral_silence  # mourn quietly, secretive
+
+    traits = {
+        virtues = { vigilant patient }
+        sins = { secretive cruel paranoid }
+    }
+
+    custom_faith_icons = {
+        the_silent_one
+    }
+
+    holy_order_names = {
+        { name = "silent_watchers" }
+        { name = "olyssar_priests" }
+    }
+
+    holy_order_maa = { praetorian }
+
+    localization = {
+        HighGodName = silent_one
+        HighGodNameAlternate = olyssar
+        HighGodNamePossessive = silent_one_possessive
+        HighGodSheHe = CHARACTER_SHEHE_HE
+        HighGodHerselfHimself = CHARACTER_HIMSELF
+        HighGodHerHis = CHARACTER_HERHIS_HIS
+
+        PantheonTerm = silent_one_the_god
+        PantheonTerm2 = silent_one_the_god_2
+        PantheonTerm3 = silent_one_the_god_3
+
+        DevoteeMale = silent_one_devotee
+        DevoteeMalePlural = silent_one_devoteeplural
+        DevoteeFemale = silent_one_devotee
+        DevoteeFemalePlural = silent_one_devoteeplural
+        DevoteeNeuter = silent_one_devotee
+        DevoteeNeuterPlural = silent_one_devoteeplural
+    }
+
+    faiths = {
+        silent_one = {
+            color = { 0.667 0.522 0.416 } 
+            icon = the_silent_one
+            reformed_icon = silent_one_icon_reformed
+
+            holy_site = silent_one_shrine
+
+            doctrine = unreformed_faith_doctrine
+
+            doctrine = tenet_secrecy
+            doctrine = tenet_surveillance
+            doctrine = tenet_loyalty_to_past
+        }
+    }
+}

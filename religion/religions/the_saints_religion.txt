@@ -1,0 +1,88 @@
+﻿saints_religion = {
+    family = rf_custom  # completely fictional family
+
+    pagan_roots = no  # not pagan
+
+    doctrine = doctrine_no_head
+    doctrine = doctrine_gender_male_dominated
+    doctrine = doctrine_pluralism_pluralistic
+    doctrine = doctrine_theocracy_temporal
+
+    #Marriage
+    doctrine = doctrine_monogamy
+    doctrine = doctrine_divorce_allowed
+    doctrine = doctrine_bastardry_legitimization
+    doctrine = doctrine_consanguinity_none
+
+    #Crimes
+    doctrine = doctrine_homosexuality_accepted
+    doctrine = doctrine_adultery_men_shunned
+    doctrine = doctrine_adultery_women_shunned
+    doctrine = doctrine_kinslaying_close_kin_crime
+    doctrine = doctrine_deviancy_shunned
+    doctrine = doctrine_witchcraft_shunned
+
+    #Clerical Functions
+    doctrine = doctrine_clerical_function_recruitment
+    doctrine = doctrine_clerical_gender_either
+    doctrine = doctrine_clerical_marriage_allowed
+    doctrine = doctrine_clerical_succession_temporal_appointment
+
+    #Pilgrimages
+    doctrine = doctrine_pilgrimage_encouraged
+
+    #Funeral tradition
+    doctrine = doctrine_funeral_bewailment
+
+    traits = {
+        virtues = { generous just temperate }
+        sins = { greedy arbitrary gluttonous }
+    }
+
+    custom_faith_icons = {
+        the_saints
+    }
+
+    holy_order_names = {
+        { name = "holy_order_knights_of_the_saints" }
+        { name = "holy_order_clerics_of_the_unknown" }
+    }
+
+    holy_order_maa = { praetorian }
+
+    localization = {
+        HighGodName = saints_divine_power
+        HighGodNamePossessive = saints_divine_power_possessive
+        HighGodSheHe = CHARACTER_SHEHE_HE
+        HighGodHerselfHimself = CHARACTER_HIMSELF
+        HighGodHerHis = CHARACTER_HERHIS_HIS
+
+        PantheonTerm = saints_the_saints
+        PantheonTerm2 = saints_the_saints_2
+        PantheonTerm3 = saints_the_saints_3
+
+        DevoteeMale = saints_devotee
+        DevoteeMalePlural = saints_devoteeplural
+        DevoteeFemale = saints_devotee
+        DevoteeFemalePlural = saints_devoteeplural
+        DevoteeNeuter = saints_devotee
+        DevoteeNeuterPlural = saints_devoteeplural
+    }
+
+    faiths = {
+        saints = {
+            color = { 0.851 0.639 0.494 }  # #d9a27e
+            icon = saints_icon
+            reformed_icon = saints_icon_reformed
+
+            holy_site = saints_main_shrine
+
+            doctrine = unreformed_faith_doctrine
+
+            doctrine = tenet_saints_veneration
+            doctrine = tenet_communal_identity
+            doctrine = tenet_esotericism
+        }
+    }
+}
+

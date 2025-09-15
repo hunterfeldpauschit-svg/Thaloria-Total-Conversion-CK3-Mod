@@ -1,0 +1,84 @@
+chronos_religion = {
+    family = rf_custom  # fully fictional family
+
+    pagan_roots = no  # not pagan, independent religion
+
+    doctrine = doctrine_no_head          # headless faith, no single ruler
+    doctrine = doctrine_gender_either
+    doctrine = doctrine_pluralism_pluralistic
+    doctrine = doctrine_theocracy_temporal
+
+    # Marriage
+    doctrine = doctrine_monogamy
+    doctrine = doctrine_divorce_allowed
+    doctrine = doctrine_bastardry_legitimization
+
+    # Crimes
+    doctrine = doctrine_homosexuality_accepted
+    doctrine = doctrine_adultery_shunned
+    doctrine = doctrine_kinslaying_close_kin_crime
+    doctrine = doctrine_deviancy_accepted
+    doctrine = doctrine_witchcraft_accepted
+
+    # Clerical Functions
+    doctrine = doctrine_clerical_function_recruitment
+    doctrine = doctrine_clerical_gender_either
+    doctrine = doctrine_clerical_marriage_allowed
+    doctrine = doctrine_clerical_succession_temporal_appointment
+
+    # Funeral tradition
+    doctrine = doctrine_funeral_bewailment  # placeholder for cyclic rituals
+
+    traits = {
+        virtues = { temperate }
+        sins = { obsessive fatalistic secretive }
+    }
+
+    custom_faith_icons = {
+        chronos
+    }
+
+    holy_order_names = {
+        { name = "serpent_guardians" }
+        { name = "keepers_of_the_tail" }
+    }
+
+    holy_order_maa = { praetorian }
+
+    localization = {
+        HighGodName = chronos
+        HighGodNameAlternate = eternal_serpent
+        HighGodNamePossessive = chronos_possessive
+        HighGodSheHe = CHARACTER_SHEHE_HE
+        HighGodHerselfHimself = CHARACTER_HIMSELF
+        HighGodHerHis = CHARACTER_HERHIS_HIS
+
+        PantheonTerm = chronos_the_god
+        PantheonTerm2 = chronos_the_god_2
+        PantheonTerm3 = chronos_the_god_3
+
+        DevoteeMale = chronos_devotee
+        DevoteeMalePlural = chronos_devoteeplural
+        DevoteeFemale = chronos_devotee
+        DevoteeFemalePlural = chronos_devoteeplural
+        DevoteeNeuter = chronos_devotee
+        DevoteeNeuterPlural = chronos_devoteeplural
+    }
+
+    faiths = {
+        chronos = {
+            color = { 0.784 0.416 0.878 }  # #c86ae0
+            icon = the_chronos
+            reformed_icon = chronos_reformed
+
+            holy_site = chronos_shrine
+
+            doctrine = unreformed_faith_doctrine
+
+            # Base-game-compatible tenets with similar flavor
+            doctrine = tenet_astrology       # Fate/Time aspect
+            doctrine = tenet_esotericism     # Mysticism
+            doctrine = tenet_communal_identity  # Tribal/community identity
+        }
+    }
+}`

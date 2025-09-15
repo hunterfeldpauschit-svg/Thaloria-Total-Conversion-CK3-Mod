@@ -1,0 +1,91 @@
+othaeleism_religion = {
+    family = rf_pagan  # base-game pagan family
+
+    pagan_roots = yes  # tribal/pagan origin
+
+    # Main doctrines
+    doctrine = doctrine_no_head       # use base-game placeholder for headless faith
+    doctrine = doctrine_gender_male_dominated
+    doctrine = doctrine_pluralism_pluralistic
+    doctrine = doctrine_theocracy_temporal
+
+    # Marriage
+    doctrine = doctrine_polygamy_allowed
+    doctrine = doctrine_divorce_allowed
+    doctrine = doctrine_bastardry_legitimization
+    doctrine = doctrine_consanguinity_sibling  # allow sibling marriage
+
+    # Crimes
+    doctrine = doctrine_homosexuality_accepted
+    doctrine = doctrine_adultery_men_shunned
+    doctrine = doctrine_adultery_women_shunned
+    doctrine = doctrine_kinslaying_close_kin_crime
+    doctrine = doctrine_deviancy_shunned
+    doctrine = doctrine_witchcraft_accepted
+
+    # Clerical Functions
+    doctrine = doctrine_clerical_function_recruitment
+    doctrine = doctrine_clerical_gender_either
+    doctrine = doctrine_clerical_marriage_allowed
+    doctrine = doctrine_clerical_succession_temporal_appointment
+
+    # Pilgrimages
+    doctrine = doctrine_pilgrimage_encouraged
+
+    # Funeral tradition
+    doctrine = doctrine_funeral_bewailment
+
+    traits = {
+        virtues = { courageous resilient }
+        sins = { greedy arbitrary gluttonous }
+    }
+
+    custom_faith_icons = {
+        othaeleism
+    }
+
+    holy_order_names = {
+        { name = "holy_order_sun_blade" }
+        { name = "holy_order_night_shroud" }
+    }
+
+    holy_order_maa = { praetorian }
+
+    localization = {
+        HighGodName = Oth
+        HighGodName2 = Aele
+        HighGodNamePossessive = oth_aele_possessive
+        HighGodSheHe = CHARACTER_SHEHE_HE
+        HighGodHerselfHimself = CHARACTER_HIMSELF
+        HighGodHerHis = CHARACTER_HERHIS_HIS
+
+        PantheonTerm = othaeleism_the_gods
+        PantheonTerm2 = othaeleism_the_gods_2
+        PantheonTerm3 = othaeleism_the_gods_3
+
+        DevoteeMale = othaeleism_devotee
+        DevoteeMalePlural = othaeleism_devoteeplural
+        DevoteeFemale = othaeleism_devotee
+        DevoteeFemalePlural = othaeleism_devoteeplural
+        DevoteeNeuter = othaeleism_devotee
+        DevoteeNeuterPlural = othaeleism_devoteeplural
+    }
+
+    faiths = {
+        othaeleism = {
+            color = { 0.804 0.580 0.804 }  # #cd94cd
+            icon = othaeleism
+            reformed_icon = othaeleism_reformed
+
+            holy_site = othaeleism_main_shrine
+
+            doctrine = unreformed_faith_doctrine
+
+            # Base-game equivalents
+            doctrine = tenet_astrology
+            doctrine = tenet_esotericism
+            doctrine = tenet_communal_identity
+        }
+    }
+}
+

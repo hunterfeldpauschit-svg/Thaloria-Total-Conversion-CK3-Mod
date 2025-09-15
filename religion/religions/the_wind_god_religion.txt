@@ -1,0 +1,75 @@
+giant_religion = {
+    family = rf_pagan
+
+    pagan_roots = yes
+
+    doctrine = pagan_hostility_doctrine
+
+    #Main Group
+    doctrine = doctrine_no_head
+    doctrine = doctrine_gender_male_dominated
+    doctrine = doctrine_pluralism_pluralistic
+    doctrine = doctrine_theocracy_temporal
+
+    #Marriage
+    doctrine = doctrine_concubines
+    doctrine = doctrine_divorce_allowed
+    doctrine = doctrine_bastardry_legitimization
+
+    #Crimes
+    doctrine = doctrine_homosexuality_accepted
+    doctrine = doctrine_deviancy_shunned
+    doctrine = doctrine_witchcraft_accepted
+
+    #Clerical Functions
+    doctrine = doctrine_clerical_function_recruitment
+    doctrine = doctrine_clerical_gender_either
+    doctrine = doctrine_clerical_marriage_allowed
+    doctrine = doctrine_clerical_succession_temporal_appointment
+
+    #Allow pilgrimages
+    doctrine = doctrine_pilgrimage_encouraged
+
+    #Funeral tradition
+    doctrine = doctrine_funeral_bewailment
+
+    traits = {
+        virtues = { strong stoic loyal }
+        sins = { cruel prideful reckless }
+    }
+
+    custom_faith_icons = {
+        custom_faith_1 custom_faith_2 custom_faith_3
+    }
+
+    holy_order_names = {
+        { name = "wind_guardians" }
+    }
+
+    holy_order_maa = { praetorian }
+
+    localization = {
+        #Wind God Name
+        WindGodName = giant_wind_god
+        WindGodNamePossessive = giant_wind_god_possessive
+        WindGodSheHe = CHARACTER_SHEHE_HE
+        WindGodHerHis = CHARACTER_HERHIS_HIS
+        WindGodHerHim = CHARACTER_HERHIM_HIM
+    }
+
+    faiths = {
+        giants = {
+            color = { 0.537 0.831 0.412 } # #89d469
+            icon = giant_icon
+            reformed_icon = giant_icon_reformed
+
+            holy_site = giant_mountain
+
+            doctrine = unreformed_faith_doctrine
+
+            doctrine = tenet_nature_worship
+            doctrine = tenet_wind_devotion
+            doctrine = tenet_strength_honor
+        }
+    }
+}
