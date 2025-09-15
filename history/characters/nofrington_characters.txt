@@ -1,0 +1,17 @@
+100000 = {
+    name = "William"
+    dynasty = 2560419626
+    dna = "william_drakehart_dna"
+    culture = androsian
+    faith = faith_androsian
+    birth = 960.1.1
+    female = no
+    attributes = {
+        diplomacy = 16
+        martial = 13
+        stewardship = 10
+        intrigue = 6
+        learning = 9
+    }
+    traits = { just vengeful generous improvident strategist diplomat }
+}
